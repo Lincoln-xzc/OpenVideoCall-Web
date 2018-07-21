@@ -1555,6 +1555,7 @@ Variable|Value|Description
 Define the following local variables:
 
 Variable|Value|Description
+---|---|---
 `videoBitrate`|`(videoBytes / 1000 / that.DURATION).toFixed(2) + 'KB/s'`|Video bit rate calculation
 `audioBitrate`|`(audioBytes / 1000 / that.DURATION).toFixed(2) + 'KB/s'`|Audio bit rate calculation
 `vPacketLoss`|`(videoPacketsLost / videoPackets * 100).toFixed(2) + '%'`|Video packet loss percentage calculation
